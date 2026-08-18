@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing rounded squircle plate in 66dp area (center 54, 54) -->
+    <path
+        android:pathData="M34,26 h40 a14,14 0 0 1 14,14 v28 a14,14 0 0 1 -14,14 h-40 a14,14 0 0 1 -14,-14 v-28 a14,14 0 0 1 14,-14 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="26"
+                android:endX="88"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C3AED" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play icon badge upper center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,36 L64,46 L48,56 Z" />
+
+    <!-- Download Arrow symbol centered below -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,46 h6 v15 h8 L54,72 L43,61 h8 Z" />
+
+    <!-- Bottom Tray Bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,74 h32 v4 h-32 Z" />
+
+</vector>
